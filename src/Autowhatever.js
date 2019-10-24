@@ -45,7 +45,7 @@ export default class Autowhatever extends Component {
     ]),
     highlightedSectionIndex: PropTypes.number, 			// Section index of the highlighted item
     highlightedItemIndex: PropTypes.number,    			// Highlighted item index (within a section)
-    enableEnsureHighlightedItemIsVisible: PropTypes.bool 	// Toggle the snapping behaviour on and off
+    enableEnsureHighlightedItemIsVisible: PropTypes.bool, 	// Toggle the snapping behaviour on and off
     theme: PropTypes.oneOfType([               			// Styles. See: https://github.com/markdalgleish/react-themeable
       PropTypes.object,
       PropTypes.array
