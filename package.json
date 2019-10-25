@@ -1,11 +1,11 @@
 {
-  "name": "react-autowhatever",
+  "name": "@deanc/react-autowhatever",
   "version": "10.2.0",
   "description": "Accessible rendering layer for Autosuggest and Autocomplete components",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moroshko/react-autowhatever.git"
+    "url": "https://github.com/deanc/react-autowhatever.git"
   },
   "author": "Misha Moroshko <michael.moroshko@gmail.com>",
   "scripts": {
