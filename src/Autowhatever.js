@@ -95,7 +95,8 @@ export default class Autowhatever extends Component {
     this.ensureHighlightedItemIsVisible();
   }
 
-  componentWillReceiveProps(nextProps) {
+  // eslint-disable-next-line camelcase, react/sort-comp
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.items !== this.props.items) {
       this.setSectionsItems(nextProps);
     }
